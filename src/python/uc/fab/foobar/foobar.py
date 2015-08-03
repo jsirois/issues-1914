@@ -1,2 +1,2 @@
 def foobar():
-  return 'broken'
+  return 'foobar'
