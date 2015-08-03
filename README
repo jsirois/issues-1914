@@ -1,0 +1,5 @@
+1. Clone this repo
+2. run `./pants run src/python/uc/fab:fab_bin` -- Note the output printed should be 'broken'
+3. revert the last commit in this repo (which *should* change the output printed)
+4. run `./pants run src/python/uc/fab:fab_bin` -- Note the output isn't changed, but it *should* be 'foobar'
+
